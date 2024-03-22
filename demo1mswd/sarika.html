@@ -1,0 +1,280 @@
+  <html>
+  <head>
+  <title>samplelab</title>
+  <body bgcolor="#bbb8b6">
+  <link rel="stylesheet" type="text/css" href="code.css"/>
+ <link rel="stylesheet" type="text/css"  href="anusha.css"/> 
+   <script>
+    function fun(id)
+	{
+	//alert('welcome');
+	document.getElementById('home').style.display='none';
+		document.getElementById('about').style.display='none';
+     document.getElementById('dept').style.display='none';
+	 document.getElementById('meterial').style.display='none';
+	 document.getElementById('contact').style.display='none';
+	 document.getElementById('help').style.display='none';
+	document.getElementById(id).style.display='block';
+	}	
+	</script>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+$(document).ready(function(){
+    $("li").click(function(){
+        $("p1").hide(1000);
+    });
+});
+</script>
+<style>
+  #home h3,#about h3,#dept h3,#meterial h3,#contact h3,#help h3
+    {
+	float: left;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: vardhana;
+    color: black;
+    z-index: 9999;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 1px 76px;
+    line-height: 1.5;
+	padding-bottom:100px;
+	position:relative;
+	}
+	#globe{
+	margin-left: -16px;
+	z-index: 1;
+	margin-top: 152px;
+	position: relative;
+	  }
+     body
+	{
+	padding:0;
+	margin:0 auto;
+	background-color:#ffv;
+	}
+	#area p1
+	{
+	float: left;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: vardhana;
+    color: black;
+    z-index: 9999;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 1px 76px;
+    line-height: 1.5;
+	padding-bottom:100px;
+	position:relative;
+	
+	}
+	
+#topmenu {
+    width: 100%;
+    height: 50px;
+    float: right;
+    padding: 0px;
+    background-color: #00BCD4;
+
+}	
+ 
+    #bom {
+    margin-top: -17px;
+    position: absolute;
+    margin-left: 0px;
+   }
+   
+#top{
+width:100%;
+height:50px;
+background-color:#1b1517;
+padding:0px;
+}
+.container{
+width:1000px;
+margin:0 auto;
+padding:0px;
+}
+.topmenu{
+    float:right;
+    padding: 0;
+    position: relative;
+    width: 926px;
+    font-size: 20px;
+	 margin-top: -24px;
+}
+.communi{
+margin-left: -7px;
+margin-top: -9px;
+padding: 0;
+position: absolute;
+width: 450px;
+color: FFFFF;
+}
+.mobi{
+  margin-left: 484px;
+  margin-top: 15px;
+  padding: 0;
+  position: absolute;
+  width: 310px;
+  text-decoration:none;
+   font-size:24px;
+}
+#mediacon {
+	position: absolute;
+	margin-top: 34px;
+	z-index: 9999;
+	margin-left: 703px;
+}
+.mobi h3 a{
+  text-decoration:none;
+  float;left;
+  font-size:24px;
+  text-align:center;
+}
+  
+ </style>
+  </head>
+  <center><body>
+  <div id="container">
+    <div id="top">
+	        <div class="flucontainer">
+			        <div class="topmenu">
+		                  <div class="communi">
+		               <italic><h5><font color="white">E-mail:yamaraiah@kluniversity.in,&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp<img src="ioio.jpg" width="50px" height="38px" alt="AmarSir">+91 9640820968</font></h5></italic>
+					   </div>
+		    	 	 <div class="mobi">
+					 <h3><a href="#"><font color="white">&nbsp&nbsp&nbsp&nbspLogin&nbsp&nbsp&nbsp&nbsp</font></a href></font></h3>
+		              </div>
+		                   <div id="mediacon">
+					       <!-- AddToAny BEGIN -->
+                          <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                              <a class="a2a_button_facebook"></a>
+                              <a class="a2a_button_twitter"></a>
+                                 <a class="a2a_button_google_plus"></a>
+                                <a class="a2a_button_email"></a>
+                                 <a class="a2a_button_linkedin"></a>
+                                   <a class="a2a_button_skype"></a>
+                             </div>
+                             <script async src="https://static.addtoany.com/menu/page.js"></script>
+                           <!-- AddToAny END -->
+                           </div>
+				     </div>
+			      </div>
+	           </div>
+	
+    <div id="banner">
+	<div id="globe" id="globe">
+	 <img src="globe.gif" width="90px" height="100px"/>
+	 </div>
+	     </div>
+    <div id="menu">
+	<div id="ul" id="ul">
+	 <ul>
+	 <li><a href="#"  onclick="fun('home')">HOME</a></li>
+	 <li><a href="#"  onclick="fun('about')">ABOUT</a></li>
+	 <li><a href="#"  onclick="fun('dept')">DEPT</a></li>
+	 <li><a href="#"  onclick="fun('meterial')">FACULTY</a></li>
+	 <li><a href="#"  onclick="fun('contact')">CONTACT</a></li>
+	 <li><a href="#"  onclick="fun('help')">HELP</a></li>
+	 	  </ul>
+	 </div>
+     </div>
+	 
+	 <div id="area">
+	<p1><h2><font color="red"><center>welcome to kluniversity vijayawada</center></font></h2><br>
+	 <center>Section-23 MernStack</center>
+	<img src="read_e0.gif" width="100px" height="120px"/>&nbsp&nbsp&nbsp&nbsp The Koneru Lakshmaiah Charities was established as a trust in the year 1980 with its official address at Museum road, Governorpet, Vijayawada, Andhra Pradesh 520 002 and started KL College of Engineering in the Academic year 1980-81.
+
+KLEF Deemed to be University was established in 1980-81, as KL College of Engineering, which was upgraded to KL College of Engineering Autonomous in 2006 by UGC, and was declared as a Deemed to be University in 2009 by UGC, MHRD Govt.of India. In 2012 as a Deemed to be University the institution was accredited by NAAC with A Grade and later in 2018, was re-accredited by NAAC with A++ grade. In 2019 UGC, MHRD declared this institution as Category I Institution.welcome to KLuniversity vaddeswaram vijayawada,
+	welcome to kluniversity vijayawada,apwelcome to kluniversity vijayawada,ap
+	welcome to kluniversity vijayawada,apwelcomewelcome to kluniversity vijayawada,apwelcome to kluniversity vijayawada,apwelcomewelcome to kluniversity vijayawada,ap
+	welcome to kluniversity vijayawada,apwelcome to kluniversity vijayawada,ap
+	welcome to kluniversity vijayawada,ap
+	<hr>
+	</p1>
+	 <form method="post" enctype="">
+	<div id="home" style="display:none">
+		<h3>
+		<font color="blue">Introduction about college</font>
+	 about the university,about the university
+	 about the university,about the university
+	 about the university,about the university
+	 about the university,about the university
+	 about the university,about the universityabout the university,about the universityabout
+	<hr>
+	
+	</h3>
+	
+	</div>
+	
+	<div id="about" style="display:none">
+	<h3>
+	<font color="red">About the campus</font>
+About the campus
+About the campus
+About the campus
+About the campus
+About the campusAbout the campusAbout
+	</h3>
+	</div>
+	<div id="dept" style="display:none">
+	<h3>
+	<font color="green">department information</font>
+	department information
+	department information
+	department information
+	department informationdepartment informationdepartment
+	</h3>
+	</div>
+	<div id="meterial" style="display:none">
+	<h3>
+	<font color="red">Welcome to faculty zone</font>
+	faculty zone for the students
+	faculty zone for the students
+faculty zone for the studentsmeterial zone for the studentsmeterialmeterial zone for the studentsmeterialmeterial zone for the studentsmeterialmeterial zone for the students
+	
+	
+	</h3>
+	</div>
+	<div id="contact" style="display:none">
+	<h3>
+	<font color="blue">contact information</font>
+	
+	</h3>
+	</div>
+	<div id="help" style="display:none">
+	<h3>
+	<font color="red">help about engineering courses,career guidelines</font>
+	help help help HELP
+	help help help HELP
+	help help help HELPhelp help help HELPhelphelp help help HELPhelp help help HELPhelp help help HELP
+	</h3>
+	</div>
+	</form>
+	</div>
+	  <div id="footer">
+	 	  <h4><font color="yellow">Welcome to KL-University,Vaddeswaram,Vijayawada.</font></h4>
+	 <div id="cen" id="cen">
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_google_plus"></a>
+</div>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+	   <center><font color="white"><it>copyright@amarsir(8138) kl university</it></font></center>
+	 </div>
+  </div>
+  </body</center>
+  </html>
+
+
+
+
